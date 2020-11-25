@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './Portfolio/About';
+import WorkSamples from './Portfolio/WorkSamples';
+import Navigation from './Portfolio/Navigation';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navigation />
+      <div className="App">
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/About" component={About} />'Rubik'
+          <Route path="/WorkSamples" component={WorkSamples} />
+        </Switch>
+      </div>
+    </Router>
   );
+
 }
+
+const Home = () => (
+  <div className="main_page">
+    <br />
+    <br />
+    <br />
+    <br />
+    <h1 style={{ fontFamily: 'Rubik' }}>Welcome To My Page</h1>
+    <h2 style={{ fontFamily: 'Rubik' }}>Click the <span style={{ color: "black" }}> Links </span> on the <span style={{ color: "black" }}> Navigation Bar</span> to know more about me</h2>
+  </div>
+)
 
 export default App;
