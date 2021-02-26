@@ -25,7 +25,7 @@ function WorkSamples() {
                     }}
                 >
                 </img>
-                <a href="https://figmatoreact.netlify.app" target="_blank" style={{ color: "lightsalmon", fontFamily: "Sansita" }} >Click here for the demo</a>
+                <a href="https://figmatoreact.netlify.app" target="_blank" style={{ color: "black", fontFamily: "Sansita" }} >Click here for the demo</a>
             </div>
             <div data-aos="flip-down">
                 <img
@@ -41,7 +41,7 @@ function WorkSamples() {
                     }}
                 >
                 </img>
-                <a href="https://responsivewebpage.netlify.app" target="_blank" style={{ color: "lightsalmon", fontFamily: "Sansita" }} >Click here for the demo</a>
+                <a href="https://responsivewebpage.netlify.app" target="_blank" style={{ color: "black", fontFamily: "Sansita" }} >Click here for the demo</a>
             </div>
             <div data-aos="fade-up">
                 <img
@@ -57,7 +57,7 @@ function WorkSamples() {
                     }}
                 >
                 </img>
-                <a href="https://picsel.netlify.app" target="_blank" style={{ color: "lightsalmon", fontFamily: "Sansita" }} >Click here for the demo</a>
+                <a href="https://picsel.netlify.app" target="_blank" style={{ color: "black", fontFamily: "Sansita" }} >Click here for the demo</a>
             </div>
             <div data-aos="fade-down" >
                 <img
@@ -73,7 +73,7 @@ function WorkSamples() {
                     }}
                 >
                 </img>
-                <a href="https://randomie.netlify.app" target="_blank" style={{ color: "lightsalmon", fontFamily: "Sansita" }} >Click here for the demo</a>
+                <a href="https://randomie.netlify.app" target="_blank" style={{ color: "black", fontFamily: "Sansita" }} >Click here for the demo</a>
             </div>
             <div data-aos="fade-left">
                 <img
@@ -141,7 +141,7 @@ function WorkSamples() {
             </div>
             <h3>
                 <i>
-                    Check out my repositories by clicking on the below icon
+                    Check out my repositories to review more of my projects by clicking on the icon below.
                 <a href="https://github.com/kavilivishnu?tab=repositories" target="_blank">
                         <div style={{ marginTop: "5px" }}>
                             <AiFillGithub size="4%" color="white" />
